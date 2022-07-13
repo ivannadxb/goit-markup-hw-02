@@ -3,14 +3,6 @@ body {
   color: var(--main-txt-cl);
 }
 
-.logo {
-  font-family: var(--logo-font);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-}
 /*header */
 .footer {
   background-color: var(--background-dark-grey);
@@ -28,6 +20,15 @@ body {
 .address-link:hover,
 .address-link:focus {
   color: var(--footer-primary-color);
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 .btn,
