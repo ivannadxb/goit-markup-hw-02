@@ -4,11 +4,11 @@ body {
 }
 
 /*header */
-.footer {
+.header {
   background-color: var(--background-dark-grey);
 }
-.footer:hover,
-.footer:focus {
+.header:hover,
+.header:focus {
   color: var(--white-color);
 }
 .address {
@@ -19,7 +19,7 @@ body {
 }
 .address-link:hover,
 .address-link:focus {
-  color: var(--footer-primary-color);
+  color: var(--header-primary-color);
 }
 
 .logo {
