@@ -1,3 +1,16 @@
+:root{
+  /* fonts */
+--main-font: 'Roboto', sans-serif;
+--secondary-font: 'Raleway', sans-serif;
+  /* text colors */
+--main-txt-cl:var(--current-color-dark)
+--acent-txt-cl:var(--blue-logo-color)
+/* bg colors */
+--darc-bg-color:var(--background-dark-grey)
+--light-bg-color:var(--light-gray-backg)
+/* others */
+}
+
 body {
   color: var(--grey-color);
   font-family: 'Roboto', sans-serif;
@@ -55,10 +68,6 @@ body {
   background-color: #2196f3;
 }
 
-.portfolio-btn {
-  color: var(--main-txt-cl);
-  background-color: #f5f4fa;
-}
 .portfolio-btn {
   color: var(--main-txt-cl);
   background-color: #f5f4fa;
