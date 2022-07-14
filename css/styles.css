@@ -1,6 +1,6 @@
 body {
-  color: var(--grey-color);
   font-family: 'Roboto', sans-serif;
+  color: var(--grey-color);
   font-size: 14px;
   letter-spacing: 0.03em;
   line-height: 1.71;
@@ -11,64 +11,65 @@ body {
 }
 .list {
   list-style: none;
-
-  /*header */
-  .header {
-    background-color: var(--background-dark-grey);
-  }
-  .header:hover,
-  .header:focus {
-    color: var(--white-color);
-  }
-  .address {
-    font-style: inherit;
-  }
-  .address-link {
-    color: var(--white-color);
-  }
-  .address-link:hover,
-  .address-link:focus {
-    color: var(--header-primary-color);
-  }
-
-  .logo {
-    font-family: var(--logo-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-  }
-
-  .btn,
-  .portfolio-btn {
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    letter-spacing: 0.06em;
-    color: #ffffff;
-    cursor: pointer;
-    background-color: #2196f3;
-  }
-
-  .portfolio-btn {
-    color: var(--main-txt-cl);
-    background-color: #f5f4fa;
-  }
-
-  :root {
-    --background-dark-grey: #2f303a;
-    --grey-color: #757575;
-    --blue-logo-color: #2196f3;
-    --dark-logo-color: #000000;
-    --white-color: #ffffff;
-    --current-color-dark: #212121;
-    --light-gray-backg: #f5f4fa;
-    --footer-primary-color: rgba(255, 255, 255, 0.6);
-  }
 }
+
+/*header */
+.header {
+  background-color: var(--background-dark-grey);
+}
+.header:hover,
+.header:focus {
+  color: var(--white-color);
+}
+.address {
+  font-style: inherit;
+}
+.address-link {
+  color: var(--white-color);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--header-primary-color);
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.btn,
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #2196f3;
+}
+
+.portfolio-btn {
+  color: var(--main-txt-cl);
+  background-color: #f5f4fa;
+}
+
+:root {
+  --background-dark-grey: #2f303a;
+  --grey-color: #757575;
+  --blue-logo-color: #2196f3;
+  --dark-logo-color: #000000;
+  --white-color: #ffffff;
+  --current-color-dark: #212121;
+  --light-gray-backg: #f5f4fa;
+  --footer-primary-color: rgba(255, 255, 255, 0.6);
+}
+
 /*footer */
 .footer {
   background-color: var(--background-dark-grey);
