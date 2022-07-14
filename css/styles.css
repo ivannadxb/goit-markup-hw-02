@@ -1,10 +1,29 @@
+:root{
+    /* fonts */
+--main-font: 'Roboto', sans-serif;
+--secondary-font: 'Raleway', sans-serif;
+    /* text colors */
+--main-txt-cl: #212121;
+--acent-txt-cl:#2196f3;
+/* bg colors */
+--darc-bg-color:#2f303a;
+--light-bg-color:#f5f4fa;
+/* others */
+
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--grey-color);
+  font-family: var(--logo-font)
+  color: var(--main-txt-cl);
   font-size: 14px;
   letter-spacing: 0.03em;
   line-height: 1.71;
 }
+
+button {
+  font-family: var(--main-font);
+}
+
 .link {
   text-decoration: none;
   color: var(--current-color-dark);
