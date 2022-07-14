@@ -19,7 +19,14 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.71;
 }
-
+.logo {
+  font-family: var(--logo-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
 button {
   font-family: var(--main-font);
 }
@@ -31,6 +38,7 @@ button {
 .list {
   list-style: none;
 }
+
 
 /*header */
 .header {
@@ -51,14 +59,6 @@ button {
   color: var(--header-primary-color);
 }
 
-.logo {
-  font-family: var(--logo-font);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-}
 
 .btn,
 .portfolio-btn {
