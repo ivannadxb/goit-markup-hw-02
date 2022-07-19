@@ -34,7 +34,8 @@ body {
   background-color: var(--light-gray-backg);
 }
 
-.header-link{
+.header-link,
+.header-phone {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16/12);
