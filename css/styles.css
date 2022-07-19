@@ -45,6 +45,9 @@ body {
 .header:focus {
   color: var(--white-color);
 }
+.header-link-current {
+  color: -var(--acent-txt-cl)
+}
 
 
 
