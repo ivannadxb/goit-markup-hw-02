@@ -41,25 +41,15 @@ body {
   letter-spacing: 0.02em;
   color: #212121
 }
-
-
-
-
-
-
-
-
-
-
-
-
-.header {
-  background-color: var(--background-dark-grey);
-}
 .header:hover,
 .header:focus {
   color: var(--white-color);
 }
+
+
+
+
+
 .address {
   font-style: inherit;
 }
