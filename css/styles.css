@@ -11,7 +11,6 @@
 /* others */
 }
 
-
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--grey-color);
@@ -26,7 +25,34 @@ body {
   list-style: none;
 }
 
+
+
+
 /*header */
+
+.header{
+  background-color: var(--light-gray-backg);
+}
+
+.header-link{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16/12);
+  letter-spacing: 0.02em;
+  color: #212121
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .header {
   background-color: var(--background-dark-grey);
 }
