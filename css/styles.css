@@ -11,14 +11,11 @@
 /* others */
 }
 
-/
-/
-
 
 body {
-  color: var(--grey-color);
   font-family: 'Roboto', sans-serif;
   color: var(--grey-color);
+ 
   font-size: 14px;
   letter-spacing: 0.03em;
   line-height: 1.71;
