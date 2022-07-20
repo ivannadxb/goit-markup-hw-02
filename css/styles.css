@@ -79,7 +79,7 @@ background-color: var(--light-gray-backg);
 
 /*hero section*/
 .hero {
-  background-color: var(--light-gray-backg);
+background-color: var(--light-gray-backg);
 }
 .hero-link {
 font-weight: 400;
@@ -89,8 +89,12 @@ letter-spacing: 0.03em;
 color: #757575
 }
 
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--accent-txt-cl);
+}
 
-
+/*about section*/
 
 
 
