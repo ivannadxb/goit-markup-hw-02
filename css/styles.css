@@ -4,13 +4,13 @@
 --secondary-font: 'Raleway', sans-serif;
 
   /* text colors */
---main-txt-cl: var(--current-color-dark)
---accent-txt-cl: var(--blue-logo-color)
---btn-txt-cl: #ffffff
+--main-txt-cl: #212121;
+--accent-txt-cl: #2196F3;
+--btn-txt-cl: #ffffff;
 
 /* bg colors */
---darc-bg-color: var(--background-dark-grey)
---light-bg-color: var(--light-gray-backg)
+--darc-bg-color: #f7f7f7;
+--light-bg-color: #191c19;
 
 /* others */
 }
@@ -23,7 +23,7 @@ body {
 /*reset styles */
 .link {
   text-decoration: none;
-  color: var(--current-color-dark);
+  color: currentColor
 }
 .list {
   list-style: none;
