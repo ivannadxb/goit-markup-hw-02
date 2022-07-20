@@ -31,7 +31,7 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: calc(16/12);
     display: flex;
     letter-spacing: 0.06em;
     color: #ffffff
@@ -58,7 +58,8 @@ body {
   color: #212121
 }
 .header:hover,
-.header:focus {
+.header:focus,
+.header-phone, {
   color: var(--blue-logo-color);
 }
 .header-link-current {
