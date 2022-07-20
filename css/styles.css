@@ -79,6 +79,14 @@ background-color: var(--light-gray-backg);
 
 /*hero section*/
 
+.hero-link {
+  font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575
+}
+
 
 
 
