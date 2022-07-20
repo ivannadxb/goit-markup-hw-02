@@ -26,6 +26,25 @@
   list-style: none;
 }
 
+.uppertitle-mode-light {
+  color: #212121;
+}
+.uppertitle-mode-dark {
+  color:rgba(255, 255, 255, 0.6)
+}
+
+.main-title {
+font-family: var(--secondary-font);
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
 /*body section*/
 body {
   font-family: var(--main-font);
