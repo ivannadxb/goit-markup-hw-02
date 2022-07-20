@@ -122,3 +122,8 @@ letter-spacing: 0.03em;
 .phone-number-footer:hover{
   color: var(--hero-txt-cl)
 }
+
+.mail-footer:focus,
+.phone-number-footer:focus{
+  color: var(--hero-txt-cl)
+}
