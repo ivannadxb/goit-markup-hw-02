@@ -119,7 +119,7 @@ background-color: var(--light-gray-backg);
 .address-link {
   color: var(--white-color);
 }
-.address-link:hover,
-.address-link:focus {
-  color: var(--footer-primary-color);
+.phone-footer:hover,
+.phone-number-footer:focus {
+  color: var(--hero-txt-cl)
 }
