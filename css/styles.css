@@ -96,33 +96,29 @@ background-color: var(--light-gray-backg);
 
 /*footer */
 .footer {
-  background-color: var(--background-dark-grey);
+  background-color: var(--darc-bg-color);
 }
 
-.footer:hover,
-.footer:focus {
-  color: var(--white-color);
+.logo-footer-style{
+  color:var(--hero-txt-cl);
 }
-.logo-link {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196F3;
-  text-decoration: none;
+
+.contacts-item,
+.mail-footer,
+.phone-number-footer {
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24/14)
+letter-spacing: 0.03em;
 }
-.logo-accent {
-  color: color: #212121
+.addres-link{
+  color: var(--hero-txt-cl)
 }
-.address {
-  font-style: inherit;
+.mail-footer,
+.phone-number-footer{
+  color: rgba(255, 255, 255, 0.6);
 }
-.address-link {
-  color: var(--hero-txt-cl);
-}
-.phone-footer:hover,
-.phone-number-footer:focus {
+.mail-footer:hover,
+.phone-number-footer:hover{
   color: var(--hero-txt-cl)
 }
