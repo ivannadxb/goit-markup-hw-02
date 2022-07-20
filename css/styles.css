@@ -92,6 +92,8 @@ background-color: var(--light-gray-backg);
 
 
 
+
+
 /*footer */
 .footer {
   background-color: var(--background-dark-grey);
@@ -118,7 +120,7 @@ background-color: var(--light-gray-backg);
   font-style: inherit;
 }
 .address-link {
-  color: var(--white-color);
+  color: var(--hero-txt-cl);
 }
 .phone-footer:hover,
 .phone-number-footer:focus {
