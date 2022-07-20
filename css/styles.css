@@ -64,15 +64,15 @@ body {
 }
 .btn:hover,
 .btn.focus {
-  color:var(--accent-txt-cl--);
+  color: var(--accent-txt-cl--);
   background-color: var(--accent-txt-cl);
 }
 
 .btn-mode-light {
-  color: #212121;
+  color: var(--main-txt-cl)
 }
 .btn-mode-dark {
-  color: #ffffff;
+  color: var(--btn-txt-cl)
 }
 
 
@@ -92,7 +92,7 @@ body {
   text-decoration: none;
 }
 .logo-accent {
-  color: color: #212121
+  color: #212121
 }
 
 .header-link,
@@ -112,6 +112,9 @@ body {
 .header-link-current {
   color: var(--acent-txt-cl);
 }
+
+/**
+|
 
 
 
