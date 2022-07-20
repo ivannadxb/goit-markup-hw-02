@@ -59,10 +59,10 @@ body {
 }
 .header:hover,
 .header:focus {
-  color: var(--white-color);
+  color: var(--blue-logo-color);
 }
 .header-link-current {
-  color: -var(--acent-txt-cl)
+  color: var(--acent-txt-cl);
 }
 
 
