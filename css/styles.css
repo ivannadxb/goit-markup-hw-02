@@ -64,7 +64,8 @@ body {
 }
 .btn:hover,
 .btn.focus {
-  color:var(--accent-txt-cl--)
+  color:var(--accent-txt-cl--);
+  background-color: var(--accent-txt-cl);
 }
 
 
