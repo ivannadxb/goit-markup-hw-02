@@ -5,19 +5,14 @@
 
   /* text colors */
 --main-txt-cl: #212121;
---accent-txt-cl: #2196F3;
---btn-txt-cl: #ffffff;
+--sec-txt-cl: #757575;
+--accent-txt-cl: #2196f3;
 
 /* bg colors */
---darc-bg-color: #f7f7f7;
---light-bg-color: #191c19;
+--darc-bg-color: #2f303a;
+--light-bg-color: #f5f4fa;
 
 /* others */
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--grey-color);
 }
 
 /*reset styles */
@@ -29,54 +24,21 @@ body {
   list-style: none;
 }
 
-/* base styles */
-.address {
-  font-style: inherit;
-}
-.address-link {
-  color: var(--white-color);
-}
-.address-link:hover,
-.address-link:focus {
-  color: var(--header-primary-color);
-}
-
-.logo {
-  font-family: var(--logo-font);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-}
-.btn,
-.portfolio-btn {
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(16/12);
-    display: flex;
-    letter-spacing: 0.06em;
-    color: #2196F3
-    cursor: pointer;
-    background-color: #2196f3
-    border: none
-}
-.btn:hover,
-.btn.focus {
-  color: var(--accent-txt-cl--);
-  background-color: var(--accent-txt-cl);
-}
-
-.btn-mode-light {
-  color: var(--main-txt-cl)
-}
-.btn-mode-dark {
-  color: var(--btn-txt-cl)
+/*body section*/
+body {
+  font-family: var(--main-font);
+  color: var(--main-txt-cl);
 }
 
 
-/*header */
+/*header section*/
+.nav-item-webstudio {
+font-family: var(--secondary-font);
+color: #2196F3
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+}
 
 .header{
   background-color: var(--light-gray-backg);
