@@ -224,22 +224,3 @@ letter-spacing: 0.03em;
 .phone-number-footer:focus{
   color: var(--hero-txt-cl)
 }
-
-/*footer */
-.footer {
-  background-color: var(--background-dark-grey);
-}
-.footer:hover,
-.footer:focus {
-  color: var(--white-color);
-}
-.address {
-  font-style: inherit;
-}
-.address-link {
-  color: var(--white-color);
-}
-.address-link:hover,
-.address-link:focus {
-  color: var(--footer-primary-color);
-} 
