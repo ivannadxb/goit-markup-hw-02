@@ -179,17 +179,30 @@ color: #757575
 
 /*about section*/
 
+.about-link {
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+color: #757575
+}
 
+.about-link {
+font-weight: 700;
+font-size: 36px;
+line-height: calc(42/36);
+text-align: center;
+color: #212121
+}
 
-
-
-
-
-
-
-
-
-
+.team-link{
+font-weight: 400;
+font-size: 16px;
+line-height: calc(19/16);
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575
+}
 
 /*footer */
 .footer {
