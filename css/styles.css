@@ -81,6 +81,14 @@ line-height: calc(42/36);
 letter-spacing: 0.03em;
 }
 
+.section-title-mode-light {
+  color: #212121;
+}
+
+.section-title-mode-dark {
+  color: #FFFFFF;
+}
+
 .btn,
 .portfolio-btn {
     font-family: inherit;
@@ -216,3 +224,22 @@ letter-spacing: 0.03em;
 .phone-number-footer:focus{
   color: var(--hero-txt-cl)
 }
+
+/*footer */
+.footer {
+  background-color: var(--background-dark-grey);
+}
+.footer:hover,
+.footer:focus {
+  color: var(--white-color);
+}
+.address {
+  font-style: inherit;
+}
+.address-link {
+  color: var(--white-color);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--footer-primary-color);
+} 
