@@ -67,13 +67,14 @@ background-color: var(--light-gray-backg);
   letter-spacing: 0.02em;
   color: #212121
 }
-.header:hover,
-.header:focus,
-.header-phone, {
-  color: var(--blue-logo-color);
+.header-link:hover,
+.header-link:focus,
+.header-phone:hover,
+.heder-phone:focus {
+  color: var(--accent-txt-cl);
 }
 .header-link-current {
-  color: var(--acent-txt-cl);
+  color: var(--accent-txt-cl);
 }
 
 /*hero section*/
