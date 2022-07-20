@@ -25,6 +25,17 @@ body {
   list-style: none;
 }
 
+/* base styles */
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(16/12);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF
+}
+
 
 
 
@@ -50,6 +61,13 @@ body {
 .header-link-current {
   color: -var(--acent-txt-cl)
 }
+
+
+
+
+
+
+
 
 
 
