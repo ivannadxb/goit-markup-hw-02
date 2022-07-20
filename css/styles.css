@@ -6,6 +6,7 @@
   /* text colors */
 --main-txt-cl: var(--current-color-dark)
 --accent-txt-cl: var(--blue-logo-color)
+--btn-txt-cl: #ffffff
 
 /* bg colors */
 --darc-bg-color: var(--background-dark-grey)
@@ -29,6 +30,25 @@ body {
 }
 
 /* base styles */
+.address {
+  font-style: inherit;
+}
+.address-link {
+  color: var(--white-color);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--header-primary-color);
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
 .btn,
 .portfolio-btn {
     font-family: inherit;
@@ -37,7 +57,7 @@ body {
     line-height: calc(16/12);
     display: flex;
     letter-spacing: 0.06em;
-    color: #ffffff
+    color: #2196F3
     cursor: pointer;
     background-color: #2196f3
     border: none
