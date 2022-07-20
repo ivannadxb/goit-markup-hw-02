@@ -1,6 +1,6 @@
 :root{
   /* fonts */
---main-font: 'Roboto', sans-serif;
+--font-family: 'Roboto', sans-serif;
 --secondary-font: 'Raleway', sans-serif;
 
   /* text colors */
@@ -30,7 +30,6 @@ body {
   color: var(--main-txt-cl);
 }
 
-
 /*header section*/
 .nav-item-webstudio {
 font-family: var(--secondary-font);
@@ -41,7 +40,7 @@ line-height: 31px;
 }
 
 .header{
-  background-color: var(--light-gray-backg);
+background-color: var(--light-gray-backg);
 }
 .logo-link {
   font-family: 'Raleway', sans-serif;
@@ -75,8 +74,7 @@ line-height: 31px;
   color: var(--acent-txt-cl);
 }
 
-/**
-|
+/*hero section*/
 
 
 
