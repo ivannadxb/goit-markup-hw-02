@@ -68,6 +68,12 @@ body {
   background-color: var(--accent-txt-cl);
 }
 
+.btn-mode-light {
+  color: #212121;
+}
+.btn-mode-dark {
+  color: #ffffff;
+}
 
 
 /*header */
