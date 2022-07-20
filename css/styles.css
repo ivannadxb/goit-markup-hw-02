@@ -2,12 +2,15 @@
   /* fonts */
 --main-font: 'Roboto', sans-serif;
 --secondary-font: 'Raleway', sans-serif;
+
   /* text colors */
---main-txt-cl:var(--current-color-dark)
---acent-txt-cl:var(--blue-logo-color)
+--main-txt-cl: var(--current-color-dark)
+--accent-txt-cl: var(--blue-logo-color)
+
 /* bg colors */
---darc-bg-color:var(--background-dark-grey)
---light-bg-color:var(--light-gray-backg)
+--darc-bg-color: var(--background-dark-grey)
+--light-bg-color: var(--light-gray-backg)
+
 /* others */
 }
 
@@ -39,7 +42,10 @@ body {
     background-color: #2196f3
     border: none
 }
-
+.btn:hover,
+.btn.focus {
+  color:var(--accent-txt-cl--)
+}
 
 
 
