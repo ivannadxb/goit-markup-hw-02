@@ -118,7 +118,7 @@ letter-spacing: 0.03em;
 /*header section*/
 .nav-item-webstudio {
 font-family: var(--secondary-font);
-color: #2196F3
+color: #2196F3;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
