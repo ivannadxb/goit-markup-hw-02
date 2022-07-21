@@ -213,9 +213,9 @@ color: #757575
   color:var(--hero-txt-cl);
 }
 
-.contacts-item,
-.mail-footer,
-.phone-number-footer {
+.footer-item,
+.footer-mail,
+.footer-phone {
 font-weight: 400;
 font-size: 14px;
 line-height: calc(24/14)
