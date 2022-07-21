@@ -134,7 +134,7 @@ background-color: var(--light-gray-backg);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196F3
+  color: #2196F3;
   text-decoration: none;
 }
 .logo-accent {
