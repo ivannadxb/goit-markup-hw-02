@@ -168,10 +168,10 @@ background-color: var(--light-gray-backg);
 }
 
 /*hero section*/
-.hero,
-.main-title {
-background-color: var(--light-gray-backg);
+.hero {
+  background-color: var(--darc-bg-color);
 }
+
 .hero-link {
 font-weight: 400;
 font-size: 14px;
