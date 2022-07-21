@@ -221,7 +221,7 @@ line-height: calc(24/14);
 letter-spacing: 0.03em;
 }
 
-.link-logo{
+.logo-footer {
   font-family: var(--logo-font);
   font-style: normal;
   font-weight: 700;
