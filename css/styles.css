@@ -220,7 +220,14 @@ line-height: calc(24/14);
 letter-spacing: 0.03em;
 }
 
-.link-logo
+.link-logo{
+  font-family: var(--logo-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
 
 .address-link {
   color: var(--light-bg-color)
