@@ -223,7 +223,7 @@ letter-spacing: 0.03em;
 .link-logo
 
 .address-link {
-  color: var(--hero-txt-cl)
+  color: var(--light-bg-color)
 }
 .footer-email,
 .footer-phone{
