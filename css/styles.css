@@ -125,7 +125,7 @@ line-height: calc(31/26);
 }
 
 .header{
-background-color: var(--light-gray-backg);
+background-color: var(--light-gray-backg--);
 }
 .logo-link {
   font-family: 'Raleway', sans-serif;
@@ -169,7 +169,7 @@ background-color: var(--light-gray-backg);
 
 /*hero section*/
 .hero {
-  background-color: var(--darc-bg-color);
+ background-color: var(--darc-bg-color);
 }
 
 .hero-link {
@@ -213,8 +213,7 @@ color: #757575
 }
 
 /*footer */
-.footer,
-.hero {
+.footer {
   background-color: var(--darc-bg-color);
 }
 
