@@ -161,7 +161,8 @@ background-color: var(--light-gray-backg);
 }
 
 /*hero section*/
-.hero {
+.hero,
+.main-title {
 background-color: var(--light-gray-backg);
 }
 .hero-link {
