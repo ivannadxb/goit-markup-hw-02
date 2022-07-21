@@ -219,6 +219,9 @@ font-size: 14px;
 line-height: calc(24/14);
 letter-spacing: 0.03em;
 }
+
+.link-logo
+
 .address-link {
   color: var(--hero-txt-cl)
 }
