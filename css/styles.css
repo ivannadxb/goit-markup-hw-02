@@ -222,16 +222,16 @@ letter-spacing: 0.03em;
 .addres-link{
   color: var(--hero-txt-cl)
 }
-.mail-footer,
-.phone-number-footer{
+.footer-email,
+.footer-phone{
   color: rgba(255, 255, 255, 0.6);
 }
-.mail-footer:hover,
-.phone-number-footer:hover{
+.footer-emailr:hover,
+.footer-phone:hover{
   color: var(--hero-txt-cl)
 }
 
-.mail-footer:focus,
-.phone-number-footer:focus{
+.footer-email:focus,
+.footer-phone:focus{
   color: var(--hero-txt-cl)
 }
