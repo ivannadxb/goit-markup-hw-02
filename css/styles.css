@@ -213,7 +213,8 @@ color: #757575
 }
 
 /*footer */
-.footer {
+.footer,
+.hero {
   background-color: var(--darc-bg-color);
 }
 
