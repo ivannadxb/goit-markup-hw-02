@@ -219,7 +219,7 @@ font-size: 14px;
 line-height: calc(24/14);
 letter-spacing: 0.03em;
 }
-.addres-link{
+.address-item {
   color: var(--hero-txt-cl)
 }
 .footer-email,
