@@ -99,7 +99,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.06em;
     color: #2196F3
     cursor: pointer;
-    background-color: #2196f3
+    background-color: #2196f3;
     border: none
 }
 .btn:hover,
