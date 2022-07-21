@@ -116,8 +116,7 @@ letter-spacing: 0.03em;
 }
 
 /*header section*/
-.nav-item-webstudio,
-.header-phone {
+.nav-item-webstudio {
 font-family: var(--secondary-font);
 color: #2196F3;
 font-weight: 700;
@@ -140,6 +139,14 @@ background-color: var(--light-gray-backg);
 }
 .logo-accent {
   color: #212121
+}
+
+.header-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16/14);
+  letter-spacing: 0.02em;
+  color: #2196F3;
 }
 
 .header-link,
