@@ -89,16 +89,16 @@ body {
 
 .btn,
 .portfolio-btn {
-  font-family: inherit;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
   display: flex;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  cursor: pointer;
-  background-color: #2196f3;
-  border: none;
 }
 
 .btn,
