@@ -101,6 +101,7 @@ body {
   border: none;
 }
 
+.btn,
 .portfolio-btn {
   color: var(--main-txt-cl);
   background-color: #f5f4fa;
