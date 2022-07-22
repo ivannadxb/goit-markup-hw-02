@@ -143,7 +143,7 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .header-link,
@@ -152,8 +152,9 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #212121;
+  color: rgba(255, 255, 255, 0.6);
 }
+
 .header-link:hover,
 .header-link:focus,
 .header-phone:hover,
