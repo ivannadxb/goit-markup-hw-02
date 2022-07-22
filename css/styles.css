@@ -33,15 +33,19 @@ body {
 }
 
 /* base styles */
-.address {
-  font-style: inherit;
+
+.heder-email,
+.heder-phone {
+  color: rgba(255, 255, 255, 0.6);
 }
-.address-link {
-  color: var(--white-color);
+.heder-emailr:hover,
+.heder-phone:hover {
+  color: var(--hero-txt-cl);
 }
-.address-link:hover,
-.address-link:focus {
-  color: var(--header-primary-color);
+
+.heder-email:focus,
+.heder-phone:focus {
+  color: var(--hero-txt-cl);
 }
 
 .logo {
