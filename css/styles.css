@@ -95,13 +95,11 @@ body {
   line-height: calc(30 / 16);
   display: flex;
   letter-spacing: 0.06em;
-  color: #ffffff
+  color: #ffffff;
   cursor: pointer;
   background-color: #2196f3;
   border: none;
 }
-
-
 
 .portfolio-btn {
   color: var(--main-txt-cl);
