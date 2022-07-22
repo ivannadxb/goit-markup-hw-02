@@ -103,8 +103,11 @@ body {
 
 .btn,
 .portfolio-btn {
-  color: var(--main-txt-cl);
-  background-color: #f5f4fa;
+  background-color: var(--color-blue);
+  color: var(--text-color-wight);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
 
 .btn-mode-light {
