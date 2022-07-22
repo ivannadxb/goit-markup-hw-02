@@ -216,6 +216,17 @@ body {
   color: #212121;
 }
 
+.team-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
 /*footer */
 .footer {
   background-color: var(--darc-bg-color);
