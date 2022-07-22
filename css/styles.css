@@ -159,10 +159,10 @@ body {
 .header-link:focus,
 .header-phone:hover,
 .heder-phone:focus {
-  color: var(--hero-txt-cl);
+  color: var(--sec-txt-cl);
 }
 .header-link-current {
-  color: var(--hero-txt-cl);
+  color: var(--sec-txt-cl);
 }
 
 /*hero section*/
