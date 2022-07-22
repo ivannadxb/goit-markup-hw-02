@@ -143,7 +143,7 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .header-link,
@@ -159,10 +159,10 @@ body {
 .header-link:focus,
 .header-phone:hover,
 .heder-phone:focus {
-  color: var(--accent-txt-cl);
+  color: var(--hero-txt-cl);
 }
 .header-link-current {
-  color: var(--accent-txt-cl);
+  color: var(--hero-txt-cl);
 }
 
 /*hero section*/
